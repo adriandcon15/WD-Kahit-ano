@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e4bce;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+header img {
+    height: 100px;
+}
+
+
+
+.content {
+    display: flex;
+    align-items: start; 
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    padding: 20px; 
+}
+h4 {
+    font-size: 2.2rem;
+}
+h4 {
+    margin-right: 5%;
+}
+.profile-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic img {
+    width: 500px; 
+    height: auto;
+    border-radius: 1px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.profile-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    text-align:left
+}
+
+.profile-info h1 {
+    font-size: 5em;
+    margin: 0;
+    color: #2e4bce;
+    line-height: 60px;
+    margin-top: 200px;
+    flex: 1;
+    margin-right: 3rem;
+}
+
+.profile-info h5 {
+    font-size: 1em; 
+    margin-top: 10px; 
+    color: #2e4bce; 
+    line-height: 1.5; 
+    margin-right: 3rem;
+    font-weight: 400;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-bottom: 20px;
+    }
+}
+p { 
+    text-align: center;
+
+}
+
+.portfolio {
+    width: 70%; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+    color: #2e4bce; 
+}
+
+.portfolio-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+}
+.portfolio-item {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.portfolio-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; /
+}
+
+.portfolio-item p {
+    margin-top: 10px; 
+    color: #333; 
+}
+
+
+.contact-info {
+    background-color: #2e4bce; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.contact-info h2 {
+    margin-bottom: 10px; 
+    font-size: 2rem; 
+}
+
+.contact-info p {
+    margin: 5px 0; 
+    font-size: 1rem; 
+}
+
+.contact-info a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.contact-info a:hover {
+    text-decoration: underline; 
+}
+
+.video-portfolio {
+    width: 60%; 
+    margin: 50px auto; 
+    text-align: center; 
+}
+
+.video-portfolio h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+    color: #2e4bce; 
+}
+
+.video-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.video-item {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.video-item video {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+.video-item p {
+    margin-top: 10px;
+    color: #333; /* Dark color for text */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.skills {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.skill-level {
+    height: 100%;
+    line-height: 30px;
+    color: #fff;
+    background-color: #2e4bce;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px 0 0 10px;
+    transition: width 0.5s ease;
+}
+
+
+
